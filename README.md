@@ -18,6 +18,7 @@ To run these implementations you will have to get all 4 classes (KenKen, Matrix,
 - Run KenKen's BasicBacktrackingStarter method and pass the Matrix 'm' as an argument, then run the m.toString() method to print the solution
   - Matrix m = new Matrix(size);
   - game.BasicBacktrackingStarter(m);
+  - System.out.println(m.toString());
 - This should print out the KenKen solution and a counter of how many nodes (Points) were searched
   - System.out.println("Basic: " + game.counter1Basic);
 
